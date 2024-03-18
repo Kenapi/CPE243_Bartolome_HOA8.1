@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Sun, 17 Mar 2024 12:23:31 GMT
+Age: 44773
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Sun, 17 Mar 2024 12:23:31 GMT
+Age: 44776
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Sun, 17 Mar 2024 12:23:31 GMT
+Age: 44777
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 90
+Via: 1.1 google
+Date: Sun, 17 Mar 2024 12:23:31 GMT
+Age: 44777
+Content-Type: text/html
+Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+<meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>

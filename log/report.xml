@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.6.1</version>
+    <build_environment>
+      <compiler>11.2.0 (11.2.0)</compiler>
+      <CPPFLAGS>-I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -I/usr/local/include -DUTC_OFFSET=+0000</CPPFLAGS>
+      <CFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member</CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2021-11-24T11:01:14</compilation_date>
+      <library name="boost" version="107400"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.2.0-39-generic</os_release>
+      <os_version>#40-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 14 14:18:00 UTC 2023</os_version>
+      <host>managenode</host>
+      <arch>x86_64</arch>
+      <command_line>command line to be provided</command_line>
+      <uid>1000</uid>
+      <username>bartolome</username>
+      <start_time>2024-03-18T01:52:39Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.52226-142.251.221.014.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.716955Z' endtime='2024-03-18T00:49:44.237876Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.14' srcport='52226' dstport='443' packets='10' len='1352' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.40644-142.251.221.046.00443c1</filename>
+      <filesize>1772</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.714088Z' endtime='2024-03-18T00:49:44.298003Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='40644' dstport='443' packets='35' len='3682' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.046.00443-010.000.003.015.40644c1</filename>
+      <filesize>63773</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.784750Z' endtime='2024-03-18T00:49:44.366497Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='40644' packets='52' out_of_order_count='10' violations='1' len='66641' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.59968-142.251.221.046.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.464933Z' endtime='2024-03-18T00:49:44.720332Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='59968' dstport='443' packets='10' len='1352' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40074c3</filename>
+      <filesize>4831</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.850313Z' endtime='2024-03-18T00:49:44.874715Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40074' packets='4' out_of_order_count='2' violations='1' len='5059' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.40074-142.251.220.130.00443c1</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.781266Z' endtime='2024-03-18T00:49:44.875997Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.130' srcport='40074' dstport='443' packets='7' len='922' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40074c4</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.876141Z' endtime='2024-03-18T00:49:44.876141Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40074' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40074c5</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.876310Z' endtime='2024-03-18T00:49:44.876310Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40074' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.40088-142.251.220.130.00443c1</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:49:46.995264Z' endtime='2024-03-18T00:49:47.088408Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.130' srcport='40088' dstport='443' packets='6' len='868' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40088c3</filename>
+      <filesize>4835</filesize>
+      <tcpflow startime='2024-03-18T00:49:47.069736Z' endtime='2024-03-18T00:49:47.088544Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40088' packets='4' out_of_order_count='2' violations='1' len='5063' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40088c4</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:47.088544Z' endtime='2024-03-18T00:49:47.088544Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40088' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40088c5</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:47.088738Z' endtime='2024-03-18T00:49:47.088738Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40088' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.40104-142.251.220.130.00443c1</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.469771Z' endtime='2024-03-18T00:49:48.555953Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.130' srcport='40104' dstport='443' packets='6' len='868' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40104c3</filename>
+      <filesize>4831</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.538564Z' endtime='2024-03-18T00:49:48.556034Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40104' packets='4' out_of_order_count='2' violations='1' len='5059' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40104c4</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.556034Z' endtime='2024-03-18T00:49:48.556034Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40104' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.130.00443-010.000.003.015.40104c5</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.556215Z' endtime='2024-03-18T00:49:48.556215Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.130' dst_ipn='10.0.3.15' srcport='443' dstport='40104' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.56538-142.251.221.006.00443c1</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.507227Z' endtime='2024-03-18T00:49:48.626707Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.6' srcport='56538' dstport='443' packets='6' len='868' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.006.00443-010.000.003.015.56538c3</filename>
+      <filesize>4830</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.575779Z' endtime='2024-03-18T00:49:48.626844Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.6' dst_ipn='10.0.3.15' srcport='443' dstport='56538' packets='4' out_of_order_count='2' violations='1' len='5058' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.006.00443-010.000.003.015.56538c4</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.626844Z' endtime='2024-03-18T00:49:48.626844Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.6' dst_ipn='10.0.3.15' srcport='443' dstport='56538' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.006.00443-010.000.003.015.56538c5</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:48.627225Z' endtime='2024-03-18T00:49:48.627225Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.6' dst_ipn='10.0.3.15' srcport='443' dstport='56538' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.33580-035.244.181.201.00443c1</filename>
+      <filesize>77</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.270417Z' endtime='2024-03-18T00:49:49.270584Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='35.244.181.201' srcport='33580' dstport='443' packets='2' len='185' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/035.244.181.201.00443-010.000.003.015.33580c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.270749Z' endtime='2024-03-18T00:49:49.287967Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='35.244.181.201' dst_ipn='10.0.3.15' srcport='443' dstport='33580' packets='3' out_of_order_count='2' len='180' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.46234-142.251.221.010.00443c1</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.498664Z' endtime='2024-03-18T00:49:49.741784Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.10' srcport='46234' dstport='443' packets='9' len='1298' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.46222-142.251.221.010.00443c1</filename>
+      <filesize>1172</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.496974Z' endtime='2024-03-18T00:49:49.738356Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.10' srcport='46222' dstport='443' packets='9' len='1678' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.010.00443-010.000.003.015.46222c1</filename>
+      <filesize>5334</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.566381Z' endtime='2024-03-18T00:49:49.738686Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.10' dst_ipn='10.0.3.15' srcport='443' dstport='46222' packets='10' out_of_order_count='5' violations='1' len='5904' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/034.107.221.082.00080-010.000.003.015.50004c1</filename>
+      <filesize>1192</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.160216Z' endtime='2024-03-18T00:49:48.646836Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.107.221.82' dst_ipn='10.0.3.15' srcport='80' dstport='50004' packets='9' out_of_order_count='5' len='1708' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/034.107.221.082.00080-010.000.003.015.50016c1</filename>
+      <filesize>864</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.163421Z' endtime='2024-03-18T00:49:48.666510Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.107.221.82' dst_ipn='10.0.3.15' srcport='80' dstport='50016' packets='9' out_of_order_count='5' len='1380' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.50004-034.107.221.082.00080c1</filename>
+      <filesize>1204</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.887294Z' endtime='2024-03-18T00:49:48.646877Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='34.107.221.82' srcport='50004' dstport='80' packets='8' len='1636' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.50016-034.107.221.082.00080c1</filename>
+      <filesize>1212</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.912271Z' endtime='2024-03-18T00:49:48.707915Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='34.107.221.82' srcport='50016' dstport='80' packets='8' len='1644' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.014.00443-010.000.003.015.52226c1</filename>
+      <filesize>4956</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.785091Z' endtime='2024-03-18T00:49:44.238851Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.14' dst_ipn='10.0.3.15' srcport='443' dstport='52226' packets='10' out_of_order_count='6' violations='1' len='5532' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.59978-142.251.221.046.00443c1</filename>
+      <filesize>1186</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.465015Z' endtime='2024-03-18T00:49:44.794477Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='59978' dstport='443' packets='12' len='1854' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.226.00443-010.000.003.015.51024c1</filename>
+      <filesize>867</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.813905Z' endtime='2024-03-18T00:49:44.925167Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.226' dst_ipn='10.0.3.15' srcport='443' dstport='51024' packets='8' out_of_order_count='5' violations='1' len='1329' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.51024-142.251.220.226.00443c1</filename>
+      <filesize>959</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.745259Z' endtime='2024-03-18T00:49:44.924842Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.226' srcport='51024' dstport='443' packets='9' len='1465' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.010.00443-010.000.003.015.46234c1</filename>
+      <filesize>5332</filesize>
+      <tcpflow startime='2024-03-18T00:49:49.567908Z' endtime='2024-03-18T00:49:49.742005Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.10' dst_ipn='10.0.3.15' srcport='443' dstport='46234' packets='9' out_of_order_count='5' violations='1' len='5848' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.220.163.00080-010.000.003.015.44982c1</filename>
+      <filesize>702</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.028315Z' endtime='2024-03-18T00:49:44.133094Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.163' dst_ipn='10.0.3.15' srcport='80' dstport='44982' packets='3' out_of_order_count='2' violations='1' len='876' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.046.00443-010.000.003.015.59968c1</filename>
+      <filesize>7450</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.537223Z' endtime='2024-03-18T00:49:44.720817Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='59968' packets='11' out_of_order_count='6' violations='1' len='8080' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/010.000.003.015.44982-142.251.220.163.00080c1</filename>
+      <filesize>427</filesize>
+      <tcpflow startime='2024-03-18T00:49:43.958952Z' endtime='2024-03-18T00:49:44.133159Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:ae:72:ba' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.163' srcport='44982' dstport='80' packets='4' len='663' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/bartolome/CPE243_Bartolome_HOA8.1/log/142.251.221.046.00443-010.000.003.015.59978c1</filename>
+      <filesize>7867</filesize>
+      <tcpflow startime='2024-03-18T00:49:44.537223Z' endtime='2024-03-18T00:49:44.794699Z' mac_daddr='08:00:27:ae:72:ba' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='59978' packets='15' out_of_order_count='6' violations='1' len='8713' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>15</open_fds_at_end>
+  <max_open_flows>16</max_open_flows>
+  <total_flows>38</total_flows>
+  <flow_map_size>15</flow_map_size>
+  <total_packets>304</total_packets>
+  <rusage>
+    <utime>0.004291</utime>
+    <stime>0.008582</stime>
+    <maxrss>18672</maxrss>
+    <minflt>1549</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>536</oublock>
+    <clocktime>0.004096</clocktime>
+  </rusage>
+</dfxml>

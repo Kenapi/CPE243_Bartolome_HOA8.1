@@ -1,0 +1,27 @@
+---
+- name: Install tcpflow
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install tcpflow
+      apt:
+        name: tcpflow
+        state: present
+
+- name: Acquiring PCAP file from Control Node
+  hosts: remote_servers
+  tasks:
+    - name: Fetch PCAP to Control Node
+      fetch:
+        src: /home/bartolome/Desktop/collectedpcaps.pcap
+        dest: /home/bartolome/CPE243_Bartolome_HOA8.1/
+        flat: yes
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Extract Exec File
+      command: "tcpflow -r /home/bartolome/CPE243_Bartolome_HOA8.1/collectedpcaps.pcap -o /home/bartolome/CPE243_Bartolome_HOA8.1/log"
+      args:
+        creates: /home/bartolome/CPE243_Bartolome_HOA8.1/executable.exe
